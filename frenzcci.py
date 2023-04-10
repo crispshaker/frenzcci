@@ -1,1 +1,1 @@
-a=b=1;exec('a=b-a;print(a);b+=a;'*10)
+a=b=1;exec('print(a:=b-a);b+=a;'*10)
